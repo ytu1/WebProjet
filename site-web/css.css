@@ -1,0 +1,64 @@
+body{
+    background: url('images/fond_jaune.png');
+}
+#page{
+    width: 900px;
+    margin: auto;
+}
+nav a, section h1, footer h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: Dayrom, serif;
+}
+header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: url('images/separateur.png') repeat-x bottom;
+}
+#header_logo{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#logo img{
+    width: 59px;
+    height: 60px;
+}
+header h1{
+    margin: 0 0 0 10px;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: 'Ballparkweiner' serif;
+}
+header h2{
+    margin-top: 0px;
+    font-size: 1.1em;
+    font-weight: normal;
+    font-family: Dayram, serif;
+}
+nav ul{
+    padding: 0; margin: 0;
+    display: flex;
+    text-align: left;
+    list-style-type: none;
+    
+}
+nav li{
+    margin-right: 15px;
+}
+nav a {
+    font-size: 1.3em;
+    padding-bottom: 3px;
+    color: #181818;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+    
+}
